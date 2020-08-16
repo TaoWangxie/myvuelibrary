@@ -12,6 +12,7 @@
       <div>
       <el-button type="primary" @click="all" >全局方法</el-button>
       </div>
+      
   </div>
 </template>
 
