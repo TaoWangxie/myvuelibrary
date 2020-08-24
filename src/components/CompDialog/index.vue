@@ -16,9 +16,9 @@
     <div>
     <slot></slot>
     <!-- 预览信息 -->
-    <div v-if='!!previewData' class="previewResult">
+    <!-- <div v-if='!!previewData' class="previewResult">
 
-    </div>
+    </div> -->
     </div>
     <div v-if='!previewData && showFooter' class="bottomLine"></div>
     <div v-if='!previewData && showFooter' slot="footer" class="dialog-footer">

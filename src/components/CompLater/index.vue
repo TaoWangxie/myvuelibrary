@@ -1,6 +1,6 @@
 <template>
-  <div class="AsyncLoad">
-      
+  <div class="CompLater">
+      CompLater
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 
 
 export default {
-  name: 'AsyncLoad',
+  name: 'CompLater',
   components: {
 
   },
@@ -22,10 +22,13 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
-  .AsyncLoad{
+<style lang="scss">
+  .CompLater{
     width: 100%;
     height: 100%;
+    background-color: #67C23A;
+    border-right: 10px;
+    text-align: center;
   }
  
 </style>

@@ -14,11 +14,19 @@ module.exports = [
             {
                 name: 'table页面',
                 componentName: 'TableView'
-                },
-                {
+            },
+            {
                 name: 'dialog页面',
                 componentName: 'DialogView'
-                },
+            },
+            {
+                name: 'AsyncComp页面',
+                componentName: 'AsyncCompView'
+            },
+            {
+                name: 'Map页面',
+                componentName: 'LoadMapView'
+            },
         ]
     }, 
     {

@@ -1,5 +1,6 @@
 export default {
     path: '/Home',
+    name: 'Home',
     component : () => import('@/views/Home/index.vue'),
     children : [
         {
@@ -28,7 +29,22 @@ export default {
             component : () => import('@/views/Home/TextView')
         },
         {
+            path : 'AsyncCompView',
+            name : 'AsyncCompView',
+            component : () => import('@/views/Home/AsyncCompView')
+        },
+        {
+            path : 'LoadMapView',
+            name : 'LoadMapView',
+            component : () => import('@/views/Home/LoadMapView'),
+            meta:{
+                /*标明需要登录*/
+                auth:true
+            },
+        },
+        {
             path : '/Home',
+            name: 'Home',
             redirect : '/Home/EchartsView'
         }
     ]

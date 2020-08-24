@@ -1,7 +1,9 @@
 <template>
   <div class="Home">
     <el-container class="h100">
-      <el-header>Header</el-header>
+      <el-header>
+        <Header></Header>
+      </el-header>
       <el-container>
         <el-aside width="240px">
           <Menu></Menu>
@@ -19,11 +21,13 @@
 <script>
 
 import Menu from '@/components/Menu'
+import Header from '@/components/Header'
 
 export default {
   name: 'Home',
   components: {
-    Menu
+    Menu,
+    Header
   },
   data() {
       return {
